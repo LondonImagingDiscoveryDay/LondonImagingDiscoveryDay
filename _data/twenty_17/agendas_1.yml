@@ -1,5 +1,11 @@
-- time: 8:00 AM - 12:00 PM
-  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
+- time: 8:00 AM - 11:50 AM
+  info: Morning Scientific Presentations
 
-- time: 12:00 PM - 3:00 PM
-  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
+- time: 11:50 AM - 12:50 PM
+  info: Lunch
+
+- time: 12:50 PM - 4:00 PM
+  info: Afternooon Scientific Presentations
+
+- time: 4:00 PM - 5:30 PM
+  info: Keynote Speaker & Awards
