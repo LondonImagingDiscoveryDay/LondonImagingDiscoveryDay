@@ -1,26 +1,18 @@
-- title: Name
-  name: Name-1
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
+- title: Narinder Paul
+  name: Narinder Paul
+  subtitle: Conference Co-chair
+  img: NarinderPaul.jpg
+  thumbnail: NarinderPaul.jpg
+  alt: Picture of Narinda Paul
   topic: Topic
   description: More Info
 
-- title: Name
-  name: Name-2
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
+- title: Aaron Fenster
+  name: Aaron Fenster
+  subtitle: Conference Co-chair
+  img: AaronFenster.jpg
+  thumbnail: AaronFenster.jpg
+  alt: Picture of Aaron Fenster
   topic: Topic
-  description: More Info
+  description: Chair/Chief Department of Medical Imaging, LHSC - University Hospital
 
-- title: Name
-  name: Name-3
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info

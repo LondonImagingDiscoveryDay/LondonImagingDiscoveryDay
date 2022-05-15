@@ -4,9 +4,14 @@
   info: Check out the agenda
   link: /agenda
 
-- inverted: timeline-inverted
+- inverted: 
   img: icon-venue.jpeg
-  name: Venue
-  info: Learn more about our location
+  name: Map
+  info: Map
   link: /venue2022
 
+- inverted: timeline-inverted
+  img: icon-team.jpeg
+  name: Committee 
+  info: Committee Members
+  link: /Committee
