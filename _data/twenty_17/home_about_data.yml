@@ -1,3 +1,9 @@
+- inverted: 
+  img: speaker-icon.jpg
+  name: Invited Speakers
+  info: Invited Speakers
+  link: /speakers
+
 - inverted: timeline-inverted
   img: icon-agenda.jpeg
   name: Agenda
@@ -15,3 +21,6 @@
   name: Committee 
   info: Committee Members
   link: /Committee
+
+
+
