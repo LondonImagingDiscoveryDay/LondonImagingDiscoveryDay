@@ -4,11 +4,12 @@
   info: Invited Speakers
   link: /InvitedSpeakers
 
+
 - inverted: timeline-inverted
-  img: icon-agenda.jpeg
-  name: Agenda
-  info: Check out the agenda
-  link: /agenda
+  img: icon-team.jpeg
+  name: Committee 
+  info: Committee Members
+  link: /Committee
 
 - inverted: 
   img: icon-venue.jpeg
@@ -17,10 +18,10 @@
   link: /venue2022
 
 - inverted: timeline-inverted
-  img: icon-team.jpeg
-  name: Committee 
-  info: Committee Members
-  link: /Committee
+  img: icon-agenda.jpeg
+  name: Agenda
+  info: Check out the agenda
+  link: /agenda
 
 
 
