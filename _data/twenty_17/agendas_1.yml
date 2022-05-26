@@ -1,11 +1,39 @@
-- time: 8:00 AM - 11:50 AM
-  info: Morning Scientific Presentations
+- time: 7:30 AM
+  info: Registration
 
-- time: 11:50 AM - 12:50 PM
+- time: 8:00 AM - 11:45 AM
+  info: Oral Scientific Presentations
+
+- time: 11:45 AM - 12:50 PM
   info: Lunch
 
-- time: 12:50 PM - 4:00 PM
-  info: Afternooon Scientific Presentations
+- time: 12:50 AM - 1:00 PM
+  info: Welcome & Introduction
 
-- time: 4:00 PM - 5:30 PM
-  info: Keynote Speaker & Awards
+- time: 1:00 PM - 1:30 PM
+  info: Introduction to Frugal Technologies & Development of AI-enhanced point-of-care frugal ultrasound
+
+- time: 1:30 PM - 2:00 PM
+  info: The role of Augmented and Virtual reality in Frugal Imaging Technologies
+
+- time: 2:00 PM - 2:30 PM
+  info: Coffee Break
+
+- time: 2:30 PM - 3:00 PM
+  info: Frugal technologies - Academics Without Borders
+
+- time: 3:00 PM - 3:30 PM
+  info: Point-of-care-ultrasound guided therapies and interventions in the global health context
+
+- time: 3:30 PM - 4:00 PM
+  info: Coffee Break
+
+- time: 4:00 PM - 4:45 PM
+  info: A Framework for addressing Global Health challenges in Radiology
+
+- time: 4:45 PM - 5:25 PM
+  info: Award Presentations
+
+- time: 5:25 PM - 5:30 PM
+  info: Closing Remarks
+
