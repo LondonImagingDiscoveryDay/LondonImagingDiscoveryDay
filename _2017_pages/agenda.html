@@ -5,71 +5,111 @@ title: Agenda
 published: true
 ---
 
-    <!--background color-->
-    <!--
-    <script type="text/javascript">
-        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
-    </script>
 
-    <div class="event black-frame">
-      <h1>{{ page.title }}</h1>
-
-        <h2>Thursday, June 9, 2022</h2>
-        <table class="agenda">
-            <thead>
-                <tr>
-                    <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>  
-                </tr>
-            </thead>
-
-            {% for agenda in site.data.twenty_17.agendas_1 %}
-                <tr>
-                    <td>{{ agenda.time }}</td>
-                    <td>{{ agenda.info }}</td>
-                </tr> 
-            {% endfor %}
-        </table>
-        
-    </div>
-
--->
     <aside class="clients" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">AGENDA (Tentative)</h2><br>
+                    <h2 class="section-heading">AGENDA (Tentative)</h2>
                     <table style="width: 100%;">
                         <tr style="border:1pt solid black;">
-                            <td colspan="3" style="background-color:#CCC0D9; text-align: center; ">
+                            <td colspan="5" style="background-color:#CCC0D9; text-align: center; ">
                                 <p><span style="font-size:16.0pt;color:#4F2683;"><b>17<sup>TH</sup> ANNUAL LONDON IMAGING DISCOVERY DAY (LIDD) <br>
-                                    DARRYL J. KING STUDENT LIFE CENTRE – KING’S  UNIVERSITY COLLEGE<br>
-                                    <span style="font-size:16.0pt;color:black;">THURSDAY, JUNE 9, 2022</span></p>
+                                    DARRYL J. KING STUDENT LIFE CENTRE – KING’S  UNIVERSITY COLLEGE<br></b></span>
+                                    <span style="font-size:16.0pt;color:black;"><b>THURSDAY, JUNE 9, 2022</b></span></p>
                             </td>
-                            </tr>    
-                            <tr style="border:1pt solid black;">
-                                <td colspan="1" style="background-color:#A7A8A7; width: 15%; text-align: center;  border:1pt solid black;">
+                        </tr>    
+                        <tr style="border:1pt solid black;">
+                            <td colspan="1" style="background-color:#A7A8A7; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">7:30 am</span></p>
-                                </td>
-                                <td colspan="2" style="background-color:#A7A8A7; width: 85%; text-align: center;  border:1pt solid black;">
+                            </td>
+                            <td colspan="4" style="background-color:#A7A8A7; width: 85%; text-align: center;  border:1pt solid black;">
                                 <p><span style="font-size:14.0pt;color:black;"><strong>REGISTRATION</strong></span></p>
                             </td>
-                            </tr>
-                            <tr style="border:1pt solid black;">
-                                <td colspan="1" style="background-color:#4F2683; width: 15%; text-align: center;  border:1pt solid black;">
-                                    <p><span style="font-size:13.0pt;color:white;">8:00 am – 12:00 pm</span></p>
-                                </td>
-                                <td colspan="2" style="background-color:#4F2683; width: 85%; text-align: center;  border:1pt solid black;">
+                        </tr>
+                        <tr style="border:1pt solid black;">
+                            <td colspan="1" style="background-color:#4F2683; width: 15%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:white;">8:00 am – 12:00 pm</span></p>
+                            </td>
+                            <td colspan="4" style="background-color:#4F2683; width: 85%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:14.0pt;color:white;"><strong>ORAL SCIENTIFIC PRESENTATIONS </strong><br>
                                         (Auditorium, Upper & Lower Level &  Main Level Atrium)
                                     </span></p>
                             </td>
+                        </tr>
+                            
+                        <tr style="border:1pt solid black;">
+                            <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;">8:00 am</span></p>
+                            </td>
+                            <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;"><strong><a href="#CardiothoracicI">Cardiothoracic I</a> </strong><br>(Room KC005)</span></p>
+                            </td>
+                            <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;"><strong><a href="#NuclearMedicineI">Nuclear Medicine I</a></strong><br>(Room KC214)</span></p>
+                            </td>
+                            <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;"><strong><a href="#NeuroradiologyI">Neuroradiology I</a></strong><br>(Auditorium)</span></p>
+                            </td>
+                            <td colspan="1" style="background-color:white; width: 22%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;"><strong><a href="#VascularI">Vascular Interventional Radiology and Body I</a></strong><br>(Room KC004)</span></p>
+                            </td>
+                        </tr>
+                        <tr style="border:1pt solid black;">
+                            <td colspan="1" style="background-color:#A7A8A7; width: 15%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;">9:00 am</span></p>
+                            </td>
+                            <td colspan="4" style="background-color:#A7A8A7; width: 85%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;"><strong>COFFEE BREAK</strong>&nbsp;(Main Level Common Area)</span></p>
+                            </td>
                             </tr>
                             <tr style="border:1pt solid black;">
-                                <td colspan="1" style="background-color:#A7A8A7; width: 15%; text-align: center;  border:1pt solid black;">
-                                    <p><span style="font-size:13.0pt;color:black;">12:00 pm – 1:00 pm</span></p>
+                                <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                    <p><span style="font-size:13.0pt;color:black;">9:30 am</span></p>
                                 </td>
-                                <td colspan="2" style="background-color:#A7A8A7; width: 85%; text-align: center;  border:1pt solid black;">
+                                <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
+                                    <p><span style="font-size:13.0pt;color:black;"><strong><a href="#CardiothoracicII">Cardiothoracic II</a> </strong><br>(Room KC005)</span></p>
+                                </td>
+                                <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
+                                    <p><span style="font-size:13.0pt;color:black;"><strong><a href="#NuclearMedicineII">Nuclear Medicine II</a></strong><br>(Room KC214)</span></p>
+                                </td>
+                                <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
+                                    <p><span style="font-size:13.0pt;color:black;"><strong><a href="#NeuroradiologyII">Neuroradiology II</a></strong><br>(Auditorium)</span></p>
+                                </td>
+                                <td colspan="1" style="background-color:white; width: 22%; text-align: center;  border:1pt solid black;">
+                                    <p><span style="font-size:13.0pt;color:black;"><strong><a href="#VascularII">Vascular Interventional Radiology and Body II</a></strong><br>(Room KC004)</span></p>
+                                </td>
+                        </tr>
+                        <tr style="border:1pt solid black;">
+                            <td colspan="1" style="background-color:#A7A8A7; width: 15%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;">10:30 am</span></p>
+                            </td>
+                            <td colspan="4" style="background-color:#A7A8A7; width: 85%; text-align: center;  border:1pt solid black;">
+                            <p><span style="font-size:13.0pt;color:black;"><strong>COFFEE BREAK</strong>&nbsp;(Main Level Common Area)</span></p>
+                            </td>
+                        </tr>
+                        <tr style="border:1pt solid black;">
+                            <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                            <p><span style="font-size:13.0pt;color:black;">11:00 am</span></p>
+                            </td>
+                            <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;"><strong><a href="#CardiothoracicIII">Cardiothoracic III</a> </strong><br>(Room KC005)</span></p>
+                            </td>
+                            <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;"><strong><a href="#Musculoskeletal">Musculoskeletal</a></strong><br>(Room KC214)</span></p>
+                            </td>
+                            <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;"><strong><a href="#NeuroradiologyIII">Neuroradiology III</a></strong><br>(Auditorium)</span></p>
+                            </td>
+                            <td colspan="1" style="background-color:white; width: 22%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;"><strong><a href="#VascularIII">Vascular Interventional Radiology and Body III</a></strong><br>(Room KC004)</span></p>
+                            </td>
+                        </tr>
+                        <tr style="border:1pt solid black;">
+                            <td colspan="1" style="background-color:#A7A8A7; width: 15%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:black;">12:00 pm – 1:00 pm</span></p>
+                            </td>
+                            <td colspan="4" style="background-color:#A7A8A7; width: 85%; text-align: center;  border:1pt solid black;">
                                 <p><span style="font-size:14.0pt;color:black;"><strong>LUNCH & HANDS ON DEMONSTRATIONS</strong><br>(Main Level Common Area)<br>
                                 </span><p><span style="font-size:12.0pt;color:black;">
                                         Augmented Reality for Needle Guidance for Liver Ablation, <i>Shuwei Xing & Joeana Romero</i><br>
@@ -77,41 +117,37 @@ published: true
                                         Virtual Displays for Interventional Radiology, <i>David Hocking & Jonathan Collier</i><br>
                                         Visualization of Streaming Ultrasound and Fluoroscopy with the Hololens 2, <i>Daniel Allen</i><br>
                                         VR for Visualization of Dynamic Heart Valve Echocardiography, <i>Patrick Carnahan</i><br>
-                                    </span></p>
-                                
+                            </span></p>
                             </td>
-                            </tr>
-                            
-
-
-                            <tr style="border:1pt solid black;">
+                        </tr>
+                        <tr style="border:1pt solid black;">
                                 <td colspan="1" style="background-color:#4F2683; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:white;">1:00 pm - 4:45 pm</span></p>
                                 </td>
-                                <td colspan="2" style="background-color:#4F2683; width: 85%; text-align: center;  border:1pt solid black;">
+                                <td colspan="4" style="background-color:#4F2683; width: 85%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:14.0pt;color:white;"><strong>KEYNOTE LECTURE SERIES ON FRUGAL TECHNOLOGIES</strong><br>
                                         (Auditorium)
                                     </span></p>
-                            </td>
-                            </tr>
-                            <tr style="border:1pt solid black;">
+                                </td>
+                        </tr>
+                        <tr style="border:1pt solid black;">
                             <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
                                 <p><span style="font-size:13.0pt;color:black;">1:00 pm</span></p>
                             </td>
-                            <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                            <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
                                 <p><span style="font-size:13.0pt;color:black;">Dr. Narinder Paul & Dr. Aaron Fenster</span></p>
                             </td>
-                            <td colspan="1" style="background-color:white; width: 70%; text-align: center;  border:1pt solid black;">
+                            <td colspan="3" style="background-color:white; width: 64%; text-align: center;  border:1pt solid black;">
                                 <p><span style="font-size:13.0pt;color:black;"><strong>Welcome & Introduction</strong></span></p>
                             </td>
-                            <tr style="border:1pt solid black;">
+                        <tr style="border:1pt solid black;">
                                 <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">1:10 pm</span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">Dr. Gabor Fichtinger</span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 70%; text-align: center;  border:1pt solid black;">
+                                <td colspan="3" style="background-color:white; width: 64%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;"><strong>Introductions to Frugal Technologies. <br> Point-of-Care-Ultrasound Guided Therapies and Interventions in the Global Health Context</strong>
                                     </span></p>
                                 </td>
@@ -120,10 +156,10 @@ published: true
                                 <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">1:40 pm</span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">Dr. Terry Peters & <br>Dr. Elvis Chen</span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 70%; text-align: center;  border:1pt solid black;">
+                                <td colspan="3" style="background-color:white; width: 64%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;"><strong>The role of Augmented and Virtual Reality in Frugal Imaging Technologies</strong>
                                     </span></p>
                                 </td>
@@ -132,7 +168,7 @@ published: true
                                 <td colspan="1" style="background-color:#A7A8A7; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">2:10 pm</span></p>
                                 </td>
-                                <td colspan="2" style="background-color:#A7A8A7; width: 85%; text-align: center;  border:1pt solid black;">
+                                <td colspan="4" style="background-color:#A7A8A7; width: 85%; text-align: center;  border:1pt solid black;">
                                 <p><span style="font-size:13.0pt;color:black;"><strong>COFFEE BREAK & HANDS ON DEMOSTRATIONS</strong>&nbsp;(Main Level Common Area)</span>
                                 </p>
                             </td>
@@ -144,7 +180,7 @@ published: true
                                 <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">Dr. Rahim Rezaie & Dr. Ian Cunningham</span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 70%; text-align: center;  border:1pt solid black;">
+                                <td colspan="3" style="background-color:white; width: 64%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;"><strong>Empowering Frugal Innovation</strong>
                                     </span></p>
                                 </td>
@@ -153,10 +189,10 @@ published: true
                                 <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">3:10 pm</span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">Dr. Aaron Fenster </span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 70%; text-align: center;  border:1pt solid black;">
+                                <td colspan="3" style="background-color:white; width: 64%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;"><strong>Development of AI-Enhanced Point-of-Care Frugal Ultrasound</strong>
                                     </span></p>
                                 </td>
@@ -165,7 +201,7 @@ published: true
                                 <td colspan="1" style="background-color:#A7A8A7; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">3:40 pm</span></p>
                                 </td>
-                                <td colspan="2" style="background-color:#A7A8A7; width: 85%; text-align: center;  border:1pt solid black;">
+                                <td colspan="4" style="background-color:#A7A8A7; width: 85%; text-align: center;  border:1pt solid black;">
                                 <p><span style="font-size:13.0pt;color:black;"><strong>COFFEE BREAK & HANDS ON DEMOSTRATIONS</strong> &nbsp;(Main Level Common Area)</span>
                                 </p>
                             </td>
@@ -174,10 +210,10 @@ published: true
                                 <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">4:10 pm</span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">Dr. Udunna Anazodo</span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 70%; text-align: center;  border:1pt solid black;">
+                                <td colspan="3" style="background-color:white; width: 64%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;"><strong>A Framework for addressing Global Health challenges in Radiology</strong>
                                     </span></p>
                                 </td>
@@ -186,7 +222,7 @@ published: true
                                 <td colspan="1" style="background-color:#D6E3BC; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">4:45 pm</span></p>
                                 </td>
-                                <td colspan="2" style="background-color:#D6E3BC; width: 85%; text-align: center;  border:1pt solid black;">
+                                <td colspan="4" style="background-color:#D6E3BC; width: 85%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:14.0pt;color:black;"><strong>AWARDS PRESENTATIONS</strong><br>
                                         (Auditorium)</span></p>
                             </td>
@@ -195,12 +231,12 @@ published: true
                                 <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">5:25 pm</p></span>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">Dr. Narinder Paul & <br>
                                         Dr. Aaron Fenster
                                     </span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 70%; text-align: center;  border:1pt solid black;">
+                                <td colspan="3" style="background-color:white; width: 64%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;"><strong>Closing Remarks</strong>
                                     </span></p>
                                 </td>
@@ -209,23 +245,1268 @@ published: true
                                 <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">5:30 pm</span></p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                <td colspan="1" style="background-color:white; width: 21%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:black;">Evaluation Forms</span>
                                         </p>
                                 </td>
-                                <td colspan="1" style="background-color:white; width: 70%; text-align: center;  border:1pt solid black;">
+                                <td colspan="3" style="background-color:white; width: 64%; text-align: center;  border:1pt solid black;">
                                     <p><span style="font-size:13.0pt;color:#4F2683;"><i>Completed evaluation forms to be dropped off at the Registration Desk - Thank you<i></strong>
                                         </span></p>
                                 </td>
                             </tr>                                                                                                        
                         </table>
+                        <br><br><hr>
+                        <a id="CardiothoracicI"></a><a  id="NuclearMedicineI"></a>
+                    <h2 class="section-heading">ORAL SCIENTIFIC PRESENTATIONS - detailed</h2><br>
+                    <!--8am to 9am session-->
+                    <table style="width: 100%;">
+                        <tr>
+                            <td colspan="2" style="background-color:#FF7C80; width: 49%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:white;">Cardiothoracic I <br>8:00 am - 9:00 am (Room KC005)</span></p>
+                            </td>
+                            <td colspan="1" style="width: 2%">&nbsp;</td>
+                            <td colspan="2" style="background-color:#B4C6E7; width: 49%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:white;">Nuclear Medicine I<br>8:00 am - 9:10 am (Room KC214)</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">8:00 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #1:  Implementation and initial evaluation of motion correction methods for hybrid cardiac PET/MRI</strong><br>
+                                <strong>Speaker:</strong> <i>Heeseung Lim, Lawson Health Research Institute</i></span>
+                            </td>
+                            <td colspan="1" style="width: 2% "> &nbsp;</td>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">8:00 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                    <strong>Talk #1:  Coronary artery calcium progression after coronary artery bypass grafting surgery</strong><br>
+                                    <strong>Speaker:</strong> <i>Rami Abazid, LHSC</i></span>
+                            </td>
+                        </tr>
+                        
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #2:  Identifying regions of diffuse fibrosis using MRI and voltage mapping in a canine model of atrial fibrillation</strong><br>
+                            <strong>Speaker:</strong> <i>Benjamin Wilk, Lawson Health Research Centre</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #2: Evaluation of 18F-FEPPA as a PET Radiotracer for Cardiac Inflammation in a Canine Model of Myocardial Infarction
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Haris Smailovic, Lawson Health Research Institute</i></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #3:  129Xe MRI Ventilation Response to Benralizumab in Severe Asthma </strong><br>
+                            <strong>Speaker:</strong> <i>Marrissa McIntosh, Western University</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #3: The impact of simulated image acquisition time reduction on image quality and parameters of myocardial perfusion imaging using a dedicated cardiac camera
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Alireza AK Khatami, Western University</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:30 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #4:  Multi-view 3D echocardiography volume compounding for mitral valve procedure planning
+                                 </strong><br>
+                            <strong>Speaker:</strong> <i> Patrick Carnahan, Robarts Research Institute </i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:30 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #4: Predictive value of coronary computed tomography angiography compared to myocardial perfusion imaging in patients with coronary stents</strong><br>
+                                <strong>Speaker:</strong> <i>Rami Abazid, LHSC</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Imaging in Post Operative Ascending Aortic Repair
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Yasmine Sallam, Northern Ontario School of Medicine</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Multiparametric MRI, sodium MRI, and PSMA PET of prostate cancer with histological validation of Gleason grade
+                                </strong><br>
+                                <strong>Speaker:</strong> <i> Josephine L Tan, Western University</i></span>
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:50 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #6: Radiologic Predictors of Pulmonary Hypertension in Patients with Fibrosing Interstitial Lung Disease
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Lubna Siddiqi, Western University</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:50 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #6:  Zero coronary calcium score does not rule out obstructive coronary artery disease in young patients with new onset chest pain
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i> Osama Smettei, LHSC</i></span>
+                                
+                        </td>
 
-
-                
-                   
+                    </tr>  
+                    <tr>
+                        <td colspan="1" style="width: 8%;"> &nbsp</td>
+                        <td style="width: 8%;">&nbsp</td>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">9:00 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #7: Non-invasive PET/MR imaging of CBF and CMRO2
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Lucas D L Narciso, Lawson Health Research Institute
+                                </i></span>
+                        </td>
+                    </tr>  
+                    </table>
+                    &nbsp;<a id="CardiothoracicII"></a><a id="NuclearMedicineII"></a><br><br>                                 
+                    <table style="width: 100%;">       
+                        
+                    <!--9:30am to 10:30am session-->
                     
-               </div> </div>
+                        <tr>
+                            <td colspan="2" style="background-color:#FF7C80; width: 49%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:white;">Cardiothoracic II <br>9:30 am - 10:30 am (Room KC005)</span></p>
+                            </td>
+                            <td colspan="1" style="width: 2%">&nbsp;</td>
+                            <td colspan="2" style="background-color:#B4C6E7; width: 49%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:white;">Nuclear Medicine II<br>9:30 am - 10:40 am (Room KC214)</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">9:30 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #1:  Novel Pulmonary MRI Uncovers Large Asymptomatic Congenital Cardiac Abnormality
+                                    
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i>Robin SP Cunningham, Western University</i></span>
+                            </td>
+                            <td colspan="1" style="width: 2% "> &nbsp;</td>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">9:30 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                    <strong>Talk #1: The Use of VDP for Normalization of ADC in Hyperpolarized 129Xe Pulmonary MRI
+                                       
+                                        </strong><br>
+                                    <strong>Speaker:</strong> <i> Elise Woodward, Western University</i></span>
+                            </td>
+                        </tr>
+                        
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">9:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #2:  Myocardial glucose suppression interferes with the detection of inflammatory cells with FDG-PET in a canine model of myocardial infarction
+                                
+                                </strong><br>
+                            <strong>Speaker:</strong> <i>Erik R Sistermans, Lawson Health Research Institute</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">9:40 am</span>
+                        </td>
+                       
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #2: The Complementary Role of Computed Tomography Angiography in the Assessment of Fixed Perfusion Defects on SPECT Myocardial Perfusion Imaging
+                                   
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i> Rami Abazid, LHSC</i></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">9:50 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #3:  129Xe Gas-Transfer MRI RBC-to-Barrier Ratio in Post-Acute COVID19 Syndrome: Clinically-relevant?
+                               
+                                 </strong><br>
+                            <strong>Speaker:</strong> <i> Alexander M Matheson, Robarts Research Institute</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">9:50 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #3: Innovations to short-lived radiopharmaceutical supply at the Lawson Cyclotron
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Justin Hicks, Lawson Health Research Institute</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:00 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #4:  CT Pulmonary Airways in Chronic Obstructive Pulmonary Disease: Longitudinal Worsening in the TINCan Cohort Study
+                                
+                                
+                                 </strong><br>
+                            <strong>Speaker:</strong> <i> Paulina V Wyszkiewicz, Western University </i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:00 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #4: Radiolabelling of Immune Checkpoint Inhibitor Nivolumab with Long-Lived Radio-Isotopes, 89Zr and 177Lu
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Mojmir Suchy, Lawson Research Institute</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Role and impact of low dose CT chest versus chest radiograph in evaluating patients with clinical diagnosis of empyema
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Yasmine Sallam, Northern Ontario School of Medicine</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Survival Predictors of 177Lu-Dotatate Peptide Receptor Radionuclide Therapy (PRRT) in Patients with Progressive Well-Differentiated Neuroendocrine Tumors (NETs). 
+                                    
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i>Mina M Swiha, Western University</i></span>
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #6: 129Xe MRI Ventilation Defects in People with Post-Acute COVID-19 Syndrome
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Harkiran K Kooner, Robarts Research Institute</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #6:  Complementary role of hybrid imaging with SPECT myocardial perfusion and coronary CT angiography in hypertrophic cardiomyopathy
+                                </strong><br>
+                                <strong>Speaker:</strong> <i> Rami Abazid, LHSC</i></span>
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td colspan="1" style="width: 8%;"> &nbsp</td>
+                        <td style="width: 8%;">&nbsp</td>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:30 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #7: Assessing Acute Cardiac Inflammation One Month after Left-sided Breast Cancer Radiotherapy with Hybrid PET/MRI
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Oi Wai Chau, Western University
+                                </i></span>
+                        </td>
+                    </tr>                                          
+                </table>
+                      <!--11am to 12pm session-->
+                    &nbsp;<a id="CardiothoracicIII"></a><a id="Musculoskeletal"></a><br><br>                                 
+                    <table style="width: 100%;">       
+                        <tr>
+                            <td colspan="2" style="background-color:#FF7C80; width: 49%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:white;">Cardiothoracic III <br>11:00 am - noon (Room KC005)</span></p>
+                            </td>
+                            <td colspan="1" style="width: 2%">&nbsp;</td>
+                            <td colspan="2" style="background-color:#B4C6E7; width: 49%; text-align: center;  border:1pt solid black;">
+                                <p><span style="font-size:13.0pt;color:white;">Musculoskeletal <br>11:00 am - noon (Room KC214)</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">11:00 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #1: A Novel Fourier Ptychography Microscope for Malaria Diagnosis 
+                                   
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i> Rajan Leung, Western University</i></span>
+                            </td>
+                            <td colspan="1" style="width: 2% "> &nbsp;</td>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">11:00 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                    <strong>Talk #1:  Image Post-Processing May Improve or Degrade X-ray Image Quality
+                                        
+                                        </strong><br>
+                                    <strong>Speaker:</strong> <i>Justin Yang, Western University</i></span>
+                            </td>
+                        </tr>
+                        
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #2: Modelling the radiation distribution of stereotactic radiotherapy in the treatment of patients with multiple lung lesions
+                                    
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i>Edward Wang, Schulich School of Medicine and Dentistry</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #2:  Effect of Metal and Ceramic Artifacts on Digital Volume Correlation Strain Measurements in Cadaveric Shoulder Hemiarthroplasty Models
+                                
+                                </strong><br>
+                            <strong>Speaker:</strong> <i>Jakub R. Targosinski, Western University</i></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #3: Predicting Recurrence Risk in Lung Cancer using Multi-Modal Radiomics and Random Survival Forest</strong><br>
+                            <strong>Speaker:</strong> <i>Jaryd R Christie, Western University</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #3: Optical imaging for rheumatoid arthritis disease activity monitoring: an in silico and disease-mimicking phantom study
+                                  
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>  Seva Ioussoufovitch, Western University</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        	
+                      
+                        
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:30 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #4:  Novel Accelerated MRI Method for 1H and 129Xe with Deep Learning
+                                 </strong><br>
+                            <strong>Speaker:</strong> <i> Samuel Perron, Western University </i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:30 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #4: Tarsal Tunnel Syndrome: An Often Overlooked Diagnosis
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>  Tejbir S Chahal, LHSC</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        	
+                        
+                        
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Texture Analysis and Machine Learning of Hyperpolarized 3He MRI Ventilation Predicts Quality-of-life Worsening in Ex-smokers with and without COPD
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Maksym Sharma, Robarts Research Institute</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: An in vitro Study of Glenoid Implant Peripheral Peg-Cement-Bone Interface Mechanics Under Simulated Glenoid Lift-Off Loading
+                                   
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i> Jakub R. Targosinski, Western University</i></span>
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:50 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #6: Self-Supervised Learning-Enhanced Thyroid Ultrasound Video Nodule Tracking
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Ningtao Liu, Western University</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:50 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #6: Peripheral nerve stimulation thresholds in human exposed to the extremely low-frequency magnetic fields (50-60Hz)– A preliminary simulation study 
+                                </strong><br>
+                                <strong>Speaker:</strong> <i> Eleonore Fresnel, Western University</i></span>
+                        </td>
+                    </tr>  
+                                                          
+                </table>  
+                &nbsp;<a id="NeuroradiologyI"></a><a id="VascularI"></a><br><br>                                 
+             
+            <table style="width: 100%;"> 
+                    <!--8am to 9am session-->
+                    <table style="width: 100%;">
+                        <tr>
+                            <td colspan="2" style="background-color:#70AD47; width: 49%; text-align: center;  border:1pt solid black;">
+                                <p id="NeuroradiologyI"><span style="font-size:13.0pt;color:white;">Neuroradiology Session I <br>8:00 am - 9:00 am (Auditorium)</span></p>
+                            </td>
+                            <td colspan="1" style="width: 2%">&nbsp;</td>
+                            <td colspan="2" style="background-color:#FFC000; width: 49%; text-align: center;  border:1pt solid black;">
+                                <p id="VascularI"><span style="font-size:13.0pt;color:white;">Vascular Interventional Radiology and Body I<br>8:00 am - 9:00 am (Room KC004)</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">8:00 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #1:  Assessing Bone Healing in Oral Cavity Cancer Patients Who Have Undergone Mandibular Resection and Reconstruction
+                                    	E
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i>Alexander Anishchenko, Western University/LHSC</i></span>
+                            </td>
+                            <td colspan="1" style="width: 2% "> &nbsp;</td>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">8:00 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                    <strong>Talk #1:  fficacy and Safety of Using Standardized size of Stents in Patients with Carotid Artery Stenosis
+                                        </strong><br>
+                                    <strong>Speaker:</strong> <i>Amro B Lahlouh, LHSC</i></span>
+                            </td>
+                        </tr>
+                        
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #2: The MOST technique (Monorail Angioplasty Over Stent-Retriever wire for Tandem disease technique): case series, safety, and efficacy outcomes.
+                                    	
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i>Maria Bres Bullrich, Western University</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #2: Multi-Energy Subtraction Cardiac Angiography
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i>Lisa Garland, Robarts Research Institute</i></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #3: Validating Functional Near-Infrared Spectroscopy against Functional Magnetic Resonance Imaging: A Resting-State Study 
+                                 </strong><br>
+                            <strong>Speaker:</strong> <i>Lipika Abbareddy, Western University</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #3: 
+                                    Integration of Augmented Reality Head-Mounted Display and 3D Ultrasound for In-Situ Visualization of Ultrasound-Guided Biopsies
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Nadia Cattari, Robarts Research Institute</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:30 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #4: Accuracy of Near-Infrared Spectroscopy Measures of Cerebral Oxygen Metabolism in Older Infants
+                                 	
+                              
+                                
+                                 </strong><br>
+                            <strong>Speaker:</strong> <i> Natalie Li, Western University </i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:30 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #4: Virtual Displays for Interventional Radiology
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>  Daniel Allen, Robarts Research Institute</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Non-invasive selective brain cooling for severe traumatic brain injury
+                                    	
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Olivia Tong, Western University</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Multimodal liver phantom for training and validation of needle puncture procedures
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i> Shuwei Xing, Western University</i></span>
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:50 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #6: Brain Injury in COVID-19 Patients with Acute Respiratory Distress Syndrome
+                                    	
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Rachel Wagner, Western University</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">8:50 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #6:  A Pictorial Review of Complications of Cesarean Section
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i> Naman Siddique, LHSC</i></span>
+                        </td>
+                    </tr>  
+                                                          
+                    <!--9:30am to 10:30am session-->
+                </table>
+                <!--11am to 12pm session-->
+                &nbsp;<a id="NeuroradiologyII"></a><a id="VascularII"></a><br><br>                                 
+                <table style="width: 100%;">                    
+                    <tr>
+                        <td colspan="2" style="background-color:#70AD47; width: 49%; text-align: center;  border:1pt solid black;">
+                            <p><span style="font-size:13.0pt;color:white;">Neuroradiology Session II <br>9:30 am - 10:20 am (Auditorium)</span></p>
+                        </td>
+                        <td colspan="1" style="width: 2%">&nbsp;</td>
+                        <td colspan="2" style="background-color:#FFC000; width: 49%; text-align: center;  border:1pt solid black;">
+                            <p><span style="font-size:13.0pt;color:white;">Vascular Interventional Radiology and Body II<br>9:30 am - 10:30 am (Room KC004)</span></p>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">9:30 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #1:  Estimation of Brain Blood Flow and Infarct using Multiphase CT Angiography in Acute Ischemic Stroke 
+                                    	
+                                    
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i>Kevin J Chung, Robarts Research Institute</i></span>
+                            </td>
+                            <td colspan="1" style="width: 2% "> &nbsp;</td>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">9:30 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                    <strong>Talk #1: Accuracy of a mini stereotactic aiming device calibration for a guidance system for percutaneous liver tumor ablation
+                                        
+                                        </strong><br>
+                                    <strong>Speaker:</strong> <i> Shuwei Xing, Western University</i></span>
+                            </td>
+                        </tr>
+                        
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">9:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #2:  Initial Results using Spherical Navigators for Prospective Motion Correction of Brain MRI
+                                	
+                                
+                                </strong><br>
+                            <strong>Speaker:</strong> <i>Junmin Liu, Western University</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">9:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #2: Percutaneous Varicocele Embolization Decreases the DNA Fragmentation Index for Infertility Treatment: A Single Centre Review Over 5 years
+                                    
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i>Samuel S Xu, LHSC</i></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">9:50 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #3:  Assessing the Sensitivity of a High-Density Near-Infrared Spectroscopy Device for Neuromonitoring
+                                
+                                
+                                 </strong><br>
+                            <strong>Speaker:</strong> <i> Farah Kamar, Western University</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">9:50 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #3:  Design of a Radio-Ultrasound-Guided System for Breast Cancer Surgery
+                                    
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i>Sydney Wilson, Western University</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:00 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #4:  Longitudinal glutamate levels in first-episode schizophrenia using 7-Tesla MRS
+                                
+                                 </strong><br>
+                            <strong>Speaker:</strong> <i> Peter Jeon, Western University	
+                                </i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:00 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #4: A 3D US liver ablation system for ultrasonically invisible tumors: a proof of concept study
+                                   
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i> Shuwei Xing, Robarts Research Institute</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Multi-metabolite-selective single-voxel spectroscopy sequence using ultra-high field proton magnetic resonance spectroscopy
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Kesavi Kanagasabai, Lawson Health Research Institute	</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Renal Mass Biopsy: Evaluating Post-Biopsy Complications to Determine Optimal Observation Time
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i> Sébastien C Robert, Western University</i></span>
+                        </td>
+                    </tr>  
+                     
+                    <tr>
+                        <td colspan="1" style="width: 8%;"> &nbsp</td>
+                        <td style="width: 8%;">&nbsp</td>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">10:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #6: Dedicated spatially-tracked whole-breast 3D ultrasound for point-of-care imaging
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Claire K Park, Western University
+                                </i></span>
+                        </td>
+                    </tr>                                          
+                  
+                    <!--11am to 12pm session-->
+                </table>
+                <!--11am to 12pm session-->
+                &nbsp;<a id="NeuroradiologyIII"></a><a id="VascularIII"></a><br><br>                                 
+                <table style="width: 100%;"> 
+                    <tr>
+                        <td colspan="2" style="background-color:#70AD47; width: 49%; text-align: center;  border:1pt solid black;">
+                            <p><span style="font-size:13.0pt;color:white;">Neuroradiology Session III <br>11:00 am - 11:50 am (Auditorium)</span></p>
+                        </td>
+                        <td colspan="1" style="width: 2%">&nbsp;</td>
+                        <td colspan="2" style="background-color:#FFC000; width: 49%; text-align: center;  border:1pt solid black;">
+                            <p><span style="font-size:13.0pt;color:white;">Vascular Interventional Radiology and Body III<br>11:00 am - 11:50 am (Room KC004)</span></p>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">11:00 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #1: Prolonged selective brain cooling for severe ischemic stroke assessed by CT Perfusion
+                                    
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i> Olivia Tong, Western University	</i></span>
+                            </td>
+                            <td colspan="1" style="width: 2% "> &nbsp;</td>
+                            <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                                <span style="font-size:11.0pt;color:black;">11:00 am</span>
+                            </td>
+                            <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                                <span style="font-size:11.0pt;color:black;">
+                                    <strong>Talk #1: 	Radiologist inclusion of AAA surveillance guidelines in imaging reports: Randomized survey of potential impact on management in Primary Care
+                                        
+                                    </strong><br>
+                                    <strong>Speaker:</strong> <i>Alexandru Florea, Western University</i></span>
+                            </td>
+                        </tr>
+                        
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #2: Quality analysis of stroke thrombectomy outcomes: working versus non-working hours outcomes from a Canadian comprehensive stroke centre
+                                    
+                                    
+                                    </strong><br>
+                                <strong>Speaker:</strong> <i>Sebastian Aniol, Western University	</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:10 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #2:  Intrauterine Contraceptive Devices: History, Imaging and Complications
+                               
+                                </strong><br>
+                            <strong>Speaker:</strong> <i> Lisa Xuan, LHSC</i></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #3: Comparison of Clinician and Radiomic Analysis of Magnetic Resonance Imaging for Brain Metastasis Stereotactic Radiosurgery Prognosis
+                                
+                                
+                                </strong><br>
+                            <strong>Speaker:</strong> <i>David A DeVries, Western University	 </i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:20 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #3: Tracking Microbial Therapeutics by PET/MRI in a Large Animal Model of Probiotic Ingestion
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>  Donna Goldhawk, Lawson Research Health Institute</i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        	
+                      
+                        
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:30 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                            <strong>Talk #4:  Predicting the recovery of consciousness in critically ill brain injured patients using fMRI resting state networks
+                                
+                                 </strong><br>
+                            <strong>Speaker:</strong> <i> Matthew Kolisnyk, Western University
+                                </i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:30 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #4: Tracking gut microbiota using magnetic resonance imaging
+                                    
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>  Donna Goldhawk, Lawson Research Health Institute </i></span>
+                        </td>
+                    </tr>   
+                    <tr>
+                        	
+                        
+                        
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Patient-Specific Cochlear Implant Pitch Mapping
+                                    
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Luke Helpard, Western University	</i></span>
+                        </td>
+                        <td colspan="1" style="width: 2% "> &nbsp;</td>
+                        <td colspan="1" style="background-color:white; width: 8%; text-align: center;  border:1pt solid black;">
+                            <span style="font-size:11.0pt;color:black;">11:40 am</span>
+                        </td>
+                        <td style="background-color:white; width: 41%; text-align: left;  border:1pt solid black; padding-left: 5px;">
+                            <span style="font-size:11.0pt;color:black;">
+                                <strong>Talk #5: Building a magnetosome-like nanoparticle for MRI using essential bacterial genes
+                                    
+                                </strong><br>
+                                <strong>Speaker:</strong> <i>Qin Sun, Lawson Health Research Institute</i></span>
+                        </td>
+                    </tr>  
+                                          
+                </table>  
+<!--
+                        <h2 class="section-heading">ORAL SCIENTIFIC PRESENTATIONS - detailed (Tentative)</h2><br>
+                        <table style="width: 100%;">
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="2" style="background-color:#FF7C80; width: 100%; text-align: center;  border:1pt solid black;">
+                                            <p id="Cardiothoracic I"><span style="font-size:13.0pt;color:white;">Cardiothoracic I <br>8:00 am - 9:00 am (Room KC005)</span></p>
+                                        </td>
+                                     </tr>
+                                     <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <span style="font-size:13.0pt;color:black;">8:00 am</span>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #1:  Implementation and initial evaluation of motion correction methods for hybrid cardiac PET/MRI</strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Heeseung Lim, Lawson Health Research Institute</i></span>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <span style="font-size:13.0pt;color:black;">8:10 am</span>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #2:  Identifying regions of diffuse fibrosis using MRI and voltage mapping in a canine model of atrial fibrillation</strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Benjamin Wilk, Lawson Health Research Centre</i></span>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <span style="font-size:13.0pt;color:black;">8:20 am</span>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #3:   129Xe MRI Ventilation Response to Benralizumab in Severe Asthma</strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Marrissa McIntosh, Western University</i></span>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <span style="font-size:13.0pt;color:black;">8:30 am</span>
+                                        </td>                                        
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                            <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #4:  Multi-view 3D echocardiography volume compounding for mitral valve procedure planning</strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Patrick Carnahan, Robarts Research Institute</i></span>
+                                       </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <span style="font-size:13.0pt;color:black;">8:40 am</span>
+                                        </td>                                       
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                        <span style="font-size:12.0pt;color:black;">
+                                            <strong>&nbsp;Talk #5:  Imaging in Post Operative Ascending Aortic Repair</strong><br>
+                                            <strong>&nbsp;Speaker:</strong> <i>Yasmine Sallam, Northern Ontario School of Medicine</i></span>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <span style="font-size:13.0pt;color:black;">8:50 am</span>
+                                        </td>                                        
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                        <span style="font-size:12.0pt;color:black;">
+                                            <strong>&nbsp;Talk #6: Radiologic Predictors of Pulmonary Hypertension in Patients with Fibrosing Interstitial Lung Disease</strong><br>
+                                            <strong>&nbsp;Speaker:</strong> <i>Lubna Siddiqi, Western University</i></span>
+                                        </td>
+                                    </tr>  
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="2" style="background-color:#FF7C80; width: 100%; text-align: center;  border:1pt solid black;">
+                                            <p id="Cardiothoracic II"><span style="font-size:13.0pt;color:white;"><strong>Cardiothoracic II </strong><br>9:30 am - 10:30 am (Room KC005)</span></p>
+                                        </td>
+                                     </tr>
+                                     <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">9:30 am</span></p>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                            <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #1: Novel Pulmonary MRI Uncovers Large Asymptomatic Congenital Cardiac Abnormality </strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Robin SP Cunningham, Western University</i></span>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">9:40 am</span></p>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #2: Myocardial glucose suppression interferes with the detection of inflammatory cells with FDG-PET in a canine model of myocardial infarction </strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Erik R Sistermans, Lawson Health Research Institute</i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">9:50 am</span></p>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #3: 129Xe Gas-Transfer MRI RBC-to-Barrier Ratio in Post-Acute COVID19 Syndrome: Clinically-relevant?</strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Alexander M Matheson, Robarts Research Institute, Western University</i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">10:00 am</span></p>
+                                        </td>                                        
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                            <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #4: CT Pulmonary Airways in Chronic Obstructive Pulmonary Disease: Longitudinal Worsening in the TINCan Cohort Study</strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Paulina V Wyszkiewicz, Western University</i>
+                                       </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">10:10 am</span></p>
+                                        </td>                                       
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                        <span style="font-size:12.0pt;color:black;">
+                                            <strong>&nbsp;Talk #5: Role and impact of low dose CT chest versus chest radiograph in evaluating patients with clinical diagnosis of empyema</strong><br>
+                                            <strong>&nbsp;Speaker:</strong> <i>Yasmine Sallam, Northern Ontario School of Medicine</i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">10:20 am</span></p>
+                                        </td>                                        
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                        <span style="font-size:12.0pt;color:black;">
+                                            <strong>&nbsp;Talk #6: 129Xe MRI Ventilation Defects in People with Post-Acute COVID-19 Syndrome</strong><br>
+                                            <strong>&nbsp;Speaker:</strong> <i>Harkiran K Kooner, Robarts Research Institute</i>
+                                        </td>
+                                    </tr>                                           
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="2" style="background-color:#FF7C80; width: 100%; text-align: center;  border:1pt solid black;">
+                                            <p id="Cardiothoracic III"><br><span style="font-size:13.0pt;color:white;"><strong>Cardiothoracic III </strong><br>11:00 am - noon (Room KC005)</span></p>
+                                        </td>
+                                     </tr>
+                                     <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">11:00 am</span></p>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #1:  A Novel Fourier Ptychography Microscope for Malaria Diagnosis </strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Rajan Leung, Western University</i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">11:10 am</span></p>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #2: Modelling the radiation distribution of stereotactic radiotherapy in the treatment of patients with multiple lung lesions</strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Edward Wang, Schulich School of Medicine and Dentistry</i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <span style="font-size:13.0pt;color:black;">11:20 am</span></p>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #3: Predicting Recurrence Risk in Lung Cancer using Multi-Modal Radiomics and Random Survival Forest</strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Jaryd R Christie, Western University</i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">11:30 am</span></p>
+                                        </td>                                        
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                            <span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #4: Novel Accelerated MRI Method for 1H and 129Xe with Deep Learning</strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i>Samuel Perron, Western University</i>
+                                       </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <span style="font-size:13.0pt;color:black;">11:40 am</span></p>
+                                        </td>                                       
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                        <span style="font-size:12.0pt;color:black;">
+                                            <strong>&nbsp;Talk #5: Texture Analysis and Machine Learning of Hyperpolarized 3He MRI Ventilation Predicts Quality-of-life Worsening in Ex-smokers with and without COPD</strong><br>
+                                            <strong>&nbsp;Speaker:</strong> <i>Maksym Sharma, Robarts Research Institute</i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">11:50 am</span></p>
+                                        </td>                                        
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                        <span style="font-size:12.0pt;color:black;">
+                                            <strong>&nbsp;Talk #6: Self-Supervised Learning-Enhanced Thyroid Ultrasound Video Nodule Tracking</strong><br>
+                                            <strong>&nbsp;Speaker:</strong> <i>Ningtao Liu, Western University</i>
+                                        </td>
+                                    </tr>                                    
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                </table>  
+                                -->                                          
+                                           
+<!--
+<tr style="border:1pt solid black;">
+                                        <td colspan="2" style="background-color:#FF7C80; width: 100%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:white;"><strong>Cardiothoracic II </strong><br>9:30 am - 10:30 am (Room KC005)</span></p>
+                                        </td>
+                                     </tr>
+                                     <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">8:00 am</span></p>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <p><span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #1:  </strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i></i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">8:10 am</span></p>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <p><span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #2:  </strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i></i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">8:20 am</span></p>
+                                        </td>
+                                         <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                             <p><span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #3: </strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i></i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">8:30 am</span></p>
+                                        </td>                                        
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                            <p><span style="font-size:12.0pt;color:black;">
+                                                <strong>&nbsp;Talk #4: </strong><br>
+                                                <strong>&nbsp;Speaker:</strong> <i></i>
+                                       </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">8:40 am</span></p>
+                                        </td>                                       
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                        <p><span style="font-size:12.0pt;color:black;">
+                                            <strong>&nbsp;Talk #5: </strong><br>
+                                            <strong>&nbsp;Speaker:</strong> <i></i>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:1pt solid black;">
+                                        <td colspan="1" style="background-color:white; width: 15%; text-align: center;  border:1pt solid black;">
+                                            <p><span style="font-size:13.0pt;color:black;">8:50 am</span></p>
+                                        </td>                                        
+                                        <td style="background-color:white; width: 85%; text-align: left;  border:1pt solid black;">
+                                        <p><span style="font-size:12.0pt;color:black;">
+                                            <strong>&nbsp;Talk #6: </strong><br>
+                                            <strong>&nbsp;Speaker:</strong> <i></i>
+                                        </td>
+                                    </tr>                          
+
+-->
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                </div> 
+              
+               
+          </div>
+
+
             </div>
+            
    </aside>
     
     
